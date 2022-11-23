@@ -4385,7 +4385,7 @@ I/O error on GET request for "http://CLOUD-PAYMENT-SERVICE/payment/get/1": CLOUD
 <p><a target="_blank" rel="noopener" href="https://cloud.spring.io/spring-cloud-static/spring-cloud-config/2.2.1.RELEASE/reference/html/">https://cloud.spring.io/spring-cloud-static/spring-cloud-config/2.2.1.RELEASE/reference/html/</a></p>
 <hr>
 <h2 id="Config服务端配置与测试"><a href="#Config服务端配置与测试" class="headerlink" title="Config服务端配置与测试"></a>Config服务端配置与测试</h2><h3 id="用你自己的账号在GitHub上新建一个名为springcloud-config的新Repository"><a href="#用你自己的账号在GitHub上新建一个名为springcloud-config的新Repository" class="headerlink" title="用你自己的账号在GitHub上新建一个名为springcloud-config的新Repository"></a>用你自己的账号在GitHub上新建一个名为springcloud-config的新Repository</h3><h3 id="由上一步获得刚新建的git地址"><a href="#由上一步获得刚新建的git地址" class="headerlink" title="由上一步获得刚新建的git地址"></a>由上一步获得刚新建的git地址</h3><blockquote>
-<p><a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#109;">&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#109;</a>:ctrl-github&#x2F;springcloud-config.git</p>
+<p><a href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;">&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#x6f;&#x6d;</a>:ctrl-github&#x2F;springcloud-config.git</p>
 </blockquote>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">git init
 git add README<span class="token punctuation">.</span>md
@@ -4397,7 +4397,7 @@ git push <span class="token operator">-</span>u origin master<span aria-hidden="
 <h3 id="本地硬盘目录上新建git仓库并clone"><a href="#本地硬盘目录上新建git仓库并clone" class="headerlink" title="本地硬盘目录上新建git仓库并clone"></a>本地硬盘目录上新建git仓库并clone</h3><p><img src="/image/Learn-SpringCloud/Learn-SpringCloud-118.png" class="lazyload placeholder" data-srcset="/image/Learn-SpringCloud/Learn-SpringCloud-118.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg"></p>
 <blockquote>
 <p><strong>git命令</strong></p>
-<p><strong>git clone <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;">&#103;&#105;&#x74;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;</a>:ctrl-github&#x2F;springcloud-config.git</strong></p>
+<p><strong>git clone <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x69;&#116;&#64;&#103;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#x63;&#x6f;&#x6d;</a>:ctrl-github&#x2F;springcloud-config.git</strong></p>
 </blockquote>
 <h3 id="在刚才创建的本地仓库"><a href="#在刚才创建的本地仓库" class="headerlink" title="在刚才创建的本地仓库"></a>在刚才创建的本地仓库</h3><p><img src="/image/Learn-SpringCloud/Learn-SpringCloud-119.png" class="lazyload placeholder" data-srcset="/image/Learn-SpringCloud/Learn-SpringCloud-119.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg"></p>
 <blockquote>
@@ -4520,14 +4520,14 @@ git push <span class="token operator">-</span>u origin master<span aria-hidden="
 <p>访问 <a target="_blank" rel="noopener" href="http://config-3344.com:3344/master/config-dev.yml">http://config-3344.com:3344/master/config-dev.yml</a></p>
 </blockquote>
 <p><strong>访问异常</strong> </p>
-<p>org.eclipse.jgit.api.errors.TransportException: <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#104;&#x75;&#98;&#46;&#x63;&#111;&#x6d;</a>:ctrl-github&#x2F;springcloud-config.git: reject HostKey: github.com</p>
+<p>org.eclipse.jgit.api.errors.TransportException: <a href="mailto:&#103;&#x69;&#116;&#x40;&#103;&#105;&#116;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;">&#103;&#x69;&#116;&#x40;&#103;&#105;&#116;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;</a>:ctrl-github&#x2F;springcloud-config.git: reject HostKey: github.com</p>
 <p>Caused by: com.jcraft.jsch.JSchException: reject HostKey: github.com</p>
 <blockquote>
 <p>SpringCloud Config 使用ssh连接github报错</p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/bangshao_/article/details/113049944">https://blog.csdn.net/bangshao_/article/details/113049944</a>   </p>
 <p>SpringCloud Config 使用ssh连接github报错：<br>java Caused by: com.jcraft.jsch.JSchException: Auth fail</p>
 <p>在练习 SpringCloud Config 配置中心时，使用 ssh 连接 GitHub 读取配置文件，出现了 Auth faill 的问题。</p>
-<p>解决过程<br>在 Git Base 中测试连接 ssh -T <a href="mailto:&#103;&#x69;&#x74;&#x40;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#x40;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;</a> 却不存在问题，并且可以正常的从代码仓库上克隆代码。经过各种尝试最终将排查目标定位到证书的问题上。<br>之前使用的是 rsa-key 的方式生成的证书，使用的命令是 ssh -keygen -t rsa -C “<a href="mailto:&#120;&#x78;&#120;&#120;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#109;">&#120;&#x78;&#120;&#120;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#109;</a>”, 这种方式生成的证书在 Git Base 上操作是没有问题的，但是在 SpringCloud Config 就是不行。于是我尝试使用以下命令<br>ssh-keygen -m PEM -t rsa -b 4096 -C “<a href="mailto:&#120;&#120;&#120;&#64;&#113;&#x71;&#46;&#x63;&#111;&#x6d;">&#120;&#120;&#120;&#64;&#113;&#x71;&#46;&#x63;&#111;&#x6d;</a>”</p>
+<p>解决过程<br>在 Git Base 中测试连接 ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;</a> 却不存在问题，并且可以正常的从代码仓库上克隆代码。经过各种尝试最终将排查目标定位到证书的问题上。<br>之前使用的是 rsa-key 的方式生成的证书，使用的命令是 ssh -keygen -t rsa -C “<a href="mailto:&#120;&#x78;&#x78;&#120;&#64;&#113;&#113;&#46;&#99;&#x6f;&#109;">&#120;&#x78;&#x78;&#120;&#64;&#113;&#113;&#46;&#99;&#x6f;&#109;</a>”, 这种方式生成的证书在 Git Base 上操作是没有问题的，但是在 SpringCloud Config 就是不行。于是我尝试使用以下命令<br>ssh-keygen -m PEM -t rsa -b 4096 -C “<a href="mailto:&#x78;&#x78;&#x78;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#x6d;">&#x78;&#x78;&#x78;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#x6d;</a>”</p>
 <p>生成证书，再次在 SpringCloud Config 中使用，问题解决。</p>
 <p>可能原因<br>第一种方式生成的私钥是以BEGIN RSA PRIVATE KEY开头，END RSA PRIVATE KEY结尾。<br>第二种方式生成的私钥是以BEGIN OPENSSH PRIVATE KEY开头，END OPENSSH PRIVATE KEY结尾。<br>SpringCloudConfig访问git的组件不支持openssh这种格式的秘钥。</p>
 <p>顺便重新生成SSH密钥还需要在git窗口操作一次使用这个连接，第一次会询问是否使用这个密钥，选择yes操作成功后、IDEA中才能使用</p>
@@ -5586,6 +5586,24 @@ git push <span class="token operator">-</span>u origin master<span aria-hidden="
 <div class="post-nav">
 
 
+
+  
+  <div class="post-nav-prev post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/7.jpg" class="lazyload placeholder" data-srcset="/medias/7.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+    </div>
+    <a href="/2022/11/23/java-concurrent/" class="post-nav-link">
+      <div class="title">
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">Java-Concurrent</div>
+      </div>
+      
+      <!-- <div class="content">
+        Java并发编程线程并发基础基础概念CPU核心数和线程数的关系核心数:线程数&#x3D;1:1 ;使用了超线程技术后—&
+      </div> -->
+    </a>
+  </div>
 
 
 
